@@ -16,22 +16,47 @@ html{
     height: 700px;
     background: rgb(196, 196, 196);
     border-radius: 20px;
+    padding: 20px 60px;
 }
+
+
 
 .name{
     width: 100%;
-    background: red;
+    /* background: red; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+
+.contact{
+    margin-bottom: 50px;
+}
+
+.label-text-1{
+    position: absolute;
+    bottom: 55px;
+    left: 10px;
+    width: 90px;
+    /* background: red; */
+}
+
+.label-text-2{
+    position: absolute;
+    bottom: 55px;
+    right: 180px;
+    width: 90px;
+    /* background: red; */
 }
 
 .name>input{    
-    width: 300px;
+    width: 280px;
     height: 50px;
-    margin: 0 20px;
     outline: none;
     border: 2px rgb(141, 141, 141) solid;
     border-radius: 5px;
+    font-size: 25px;
+    padding: 15px;
 }
 

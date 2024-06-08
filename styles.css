@@ -21,13 +21,14 @@ html{
 
 
 
-.name{
+.name, .email{
     width: 100%;
     /* background: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-bottom: 70px;
 }
 
 .contact{
@@ -36,21 +37,21 @@ html{
 
 .label-text-1{
     position: absolute;
-    bottom: 55px;
+    bottom: 60px;
     left: 10px;
-    width: 90px;
+    width: 100px;
     /* background: red; */
 }
 
 .label-text-2{
     position: absolute;
-    bottom: 55px;
+    bottom: 60px;
     right: 180px;
     width: 90px;
     /* background: red; */
 }
 
-.name>input{    
+.name>input, .email>input{    
     width: 280px;
     height: 50px;
     outline: none;
@@ -59,4 +60,13 @@ html{
     font-size: 25px;
     padding: 15px;
 }
+
+.email>input{
+    width: 100%;
+
+}
+
+
+
+
 

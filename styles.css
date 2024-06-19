@@ -10,48 +10,47 @@ html{
     height: 100%;
 }
 
+/*--------------------------------------*/
 
 .base{
     width: 700px;
-    height: 700px;
+    /* height: 700px; */
     background: rgb(196, 196, 196);
     border-radius: 20px;
     padding: 20px 60px;
 }
 
 
-
-.name, .email, .query, .msj{
-    width: 100%;
-    background: red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    margin-bottom: 70px;
-}
-
 .contact{
     margin-bottom: 70px;
 }
 
+/*--------------------------------------*/
+
+
+.name, .email, .query, .msj{
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* margin-bottom: 70px; */
+}
+
+
+
 .label-text-1{
-    position: absolute;
-    bottom: 65px;
-    left: 10px;
     width: 100px;
     /* background: red; */
 }
 
 .label-text-2{
-    position: absolute;
-    bottom: 60px;
-    right: 180px;
     width: 90px;
     /* background: red; */
 }
 
-.name>input, .email>input, .query>div, .msj>textarea{    
+.name>input, .email>input, .query>div, .componente>textarea{    
     width: 280px;
     height: 50px;
     outline: none;
@@ -87,20 +86,33 @@ html{
 
 label{
     font-size: 15px;
-    margin-left: 10px;
 }
 
 .email>input{
     width: 100%;
-
 }
 
-.msj>textarea{
+.componente{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.componente>textarea{
     width: 100%;
     height: 150px;
     resize: none;
 }
 
+.espacios{
+    margin-bottom: 70px;
+}
+
+.tituloLabel{
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+}
 
 
 

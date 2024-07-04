@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="flex justify-center items-center h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body class="sm:bg-[#E0F1E7]">
+
+<div class="w-[600px]  bg-white p-[40px] rounded-[20px]">
+
+
+    <div class="text-[30px] text-black w-full mb-[30px] font-bold">Contact Us</div> <!-- Contact us -->
+
+
+    <div class=" flex justify-center mb-[30px]"> <!-- 1st & last name -->
+
+        <div class="w-full mr-[10px] bg">
+            <p class="text-[12px] mb-[10px]">First Name</p>
+            <input type="text" class="w-full h-[35px] rounded-[5px] outline-none border border-black px-[10px] text-[12px]">
+        </div>
+        
+        <div class="w-full ml-[10px]">
+            <p class="text-[12px] mb-[10px]">Last Name</p>
+            <input type="text" class="w-full h-[35px] rounded-[5px] outline-none border border-black px-[10px] text-[12px]">
+        </div>
+
+    </div>
+
+
+
+    <div class=" mb-[30px]"> <!-- Email address -->
+            <p class="text-[12px] mb-[10px]">Email Address</p>
+            <input type="text" class="w-full h-[35px] outline-none border border-black rounded-[5px] px-[10px] text-[12px]">
+    </div>
+
+
+
+    <div class="mb-[30px]"> <!-- Query type -->
+        <p class="text-[12px] mb-[10px]">Query type</p>
+
+        <div class="flex">
+            <div class="w-full mr-[10px] bg-white px-[20px] outline-none border border-black flex items-center rounded-[5px]">
+                <input class="mr-[8px] h-[35px]" type="radio" name="query-type" id="first-qt">
+                <label for="first-qt" class="relative bottom-[1px] text-[12px]">General Enquiry</label>
+            </div>
+    
+            <div class="w-full ml-[10px] bg-white px-[20px] outline-none border border-black flex items-center rounded-[5px]">
+                <input class="mr-[8px] h-[35px]" type="radio" name="query-type" id="second-qt">
+                <label for="second-qt" class="relative bottom-[1px] text-[12px]">Support Request</label>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class=" mb-[40px]"> <!-- Message -->
+        <p class="text-[12px] mb-[10px]">Message</p>
+        <textarea class="w-full h-[150px] outline-none border border-black rounded-[5px] flex text-start p-[10px] resize-none text-[12px]"></textarea>
+    </div>
+
+
+    
+    <div class=" mb-[40px] flex items-center"> <!-- Checkbox -->
+        <input type="checkbox" name="" id="checkbox" class="mr-[15px]">
+        <label for="checkbox" class="text-[12px]">I consent to being contacted by the team</label>
+    </div>
+
+
+
+    
+    <button type="button" class="w-full h-[40px] bg-[#0C7D69] text-white text-[12px] rounded-[5px]">Submit</button> <!-- Submit -->
+    
+
+</div>
+    
+</body>
+</html>

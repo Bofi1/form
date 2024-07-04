@@ -1,0 +1,14 @@
+Reminder:
+
+tailwind installation
+
+
+npm install -D tailwindcss
+npx tailwindcss init
+
+
+/tailwind.config.js
+----> content: ["./src/**/*.{html,js}"],
+
+run:
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch

@@ -644,14 +644,29 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-\[red\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 0 0 / var(--tw-border-opacity));
+}
+
+.border-\[black\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-\[\#0C7D69\] {
   --tw-bg-opacity: 1;
   background-color: rgb(12 125 105 / var(--tw-bg-opacity));
 }
 
-.bg-black {
+.bg-\[\#E0F1E7\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(224 241 231 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -703,6 +718,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[red\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 0 0 / var(--tw-text-opacity));
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -712,17 +732,34 @@ video {
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch 
 */
 
-@media (min-width: 500px) {
-  .ssm\:h-full {
-    height: 100%;
-  }
+.hover\:bg-\[\#86d1c3\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 209 195 / var(--tw-bg-opacity));
+}
 
+.hover\:bg-\[\#55ad9d\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(85 173 157 / var(--tw-bg-opacity));
+}
+
+.active\:bg-black:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.active\:bg-\[\#0C7D69\]:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 125 105 / var(--tw-bg-opacity));
+}
+
+.active\:bg-\[\#55ad9d\]:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(85 173 157 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 500px) {
   .ssm\:w-\[450px\] {
     width: 450px;
-  }
-
-  .ssm\:items-center {
-    align-items: center;
   }
 }
 
@@ -743,21 +780,12 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
     display: flex;
   }
 
-  .sm\:h-full {
-    height: 100%;
-  }
-
   .sm\:w-\[600px\] {
     width: 600px;
   }
 
   .sm\:items-center {
     align-items: center;
-  }
-
-  .sm\:bg-\[\#E0F1E7\] {
-    --tw-bg-opacity: 1;
-    background-color: rgb(224 241 231 / var(--tw-bg-opacity));
   }
 }
 

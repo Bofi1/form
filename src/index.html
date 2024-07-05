@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="output.css">
     <title>Document</title>
 </head>
-<body class="bg-black sm:bg-[#E0F1E7]"> 
+<body class="bg-[#E0F1E7]"> 
 
 <div class="w-[300px] sm:w-[600px] ssm:w-[450px] bg-white p-[40px] rounded-[20px] my-[30px]"> <!-- Contenedor -->
 
@@ -17,8 +17,8 @@
     <div class=" sm:flex justify-center mb-[30px]"> <!-- 1st & last name -->
 
         <div class="w-full sm:mr-[10px] bg mb-[20px] sm:mb-[0px]">
-            <p class="text-[12px] mb-[10px]">First Name</p>
-            <input type="text" class="w-full h-[35px] rounded-[5px] outline-none border border-black px-[10px] text-[12px]">
+            <p id="titleFirstName" class="text-[12px] mb-[10px]">First Name</p>
+            <input id="firstName" type="text" class="w-full h-[35px] rounded-[5px] outline-none border border-black px-[10px] text-[12px]">
         </div>
         
         <div class="w-full sm:ml-[10px]">
@@ -32,7 +32,7 @@
 
     <div class=" mb-[30px]"> <!-- Email address -->
             <p class="text-[12px] mb-[10px]">Email Address</p>
-            <input type="text" class="w-full h-[35px] outline-none border border-black rounded-[5px] px-[10px] text-[12px]">
+            <input type="email" class="w-full h-[35px] outline-none border border-black rounded-[5px] px-[10px] text-[12px]">
     </div>
 
 
@@ -70,10 +70,12 @@
 
 
     
-    <button type="button" class="w-full h-[40px] bg-[#0C7D69] text-white text-[12px] rounded-[5px]">Submit</button> <!-- Submit -->
+    <button id="submit" onclick='firstN()' type="button" class="w-full h-[40px] bg-[#0C7D69] text-white text-[12px] rounded-[5px] active:bg-[#55ad9d]" >Submit</button> <!-- Submit -->
     
 
 </div>
     
+<script src="conditions.js"></script>
+
 </body>
 </html>

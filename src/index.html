@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" class="flex justify-center items-center h-full">
+<html lang="en" class="flex justify-center sm:items-center md:h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
     <title>Document</title>
 </head>
-<body class="sm:bg-[#E0F1E7]">
+<body class="bg-black sm:bg-[#E0F1E7]"> 
 
-<div class="w-[600px]  bg-white p-[40px] rounded-[20px]">
+<div class="w-[300px] sm:w-[600px] ssm:w-[450px] bg-white p-[40px] rounded-[20px] my-[30px]"> <!-- Contenedor -->
 
 
     <div class="text-[30px] text-black w-full mb-[30px] font-bold">Contact Us</div> <!-- Contact us -->
 
 
-    <div class=" flex justify-center mb-[30px]"> <!-- 1st & last name -->
+    <div class=" sm:flex justify-center mb-[30px]"> <!-- 1st & last name -->
 
-        <div class="w-full mr-[10px] bg">
+        <div class="w-full sm:mr-[10px] bg mb-[20px] sm:mb-[0px]">
             <p class="text-[12px] mb-[10px]">First Name</p>
             <input type="text" class="w-full h-[35px] rounded-[5px] outline-none border border-black px-[10px] text-[12px]">
         </div>
         
-        <div class="w-full ml-[10px]">
+        <div class="w-full sm:ml-[10px]">
             <p class="text-[12px] mb-[10px]">Last Name</p>
             <input type="text" class="w-full h-[35px] rounded-[5px] outline-none border border-black px-[10px] text-[12px]">
         </div>
@@ -40,13 +40,13 @@
     <div class="mb-[30px]"> <!-- Query type -->
         <p class="text-[12px] mb-[10px]">Query type</p>
 
-        <div class="flex">
-            <div class="w-full mr-[10px] bg-white px-[20px] outline-none border border-black flex items-center rounded-[5px]">
+        <div class="sm:flex">
+            <div class="w-full sm:mr-[10px] bg-white px-[20px] outline-none border border-black flex items-center rounded-[5px] mb-[20px] sm:mb-[0px]">
                 <input class="mr-[8px] h-[35px]" type="radio" name="query-type" id="first-qt">
                 <label for="first-qt" class="relative bottom-[1px] text-[12px]">General Enquiry</label>
             </div>
     
-            <div class="w-full ml-[10px] bg-white px-[20px] outline-none border border-black flex items-center rounded-[5px]">
+            <div class="w-full sm:ml-[10px] bg-white px-[20px] outline-none border border-black flex items-center rounded-[5px]">
                 <input class="mr-[8px] h-[35px]" type="radio" name="query-type" id="second-qt">
                 <label for="second-qt" class="relative bottom-[1px] text-[12px]">Support Request</label>
             </div>

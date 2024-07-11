@@ -6,10 +6,10 @@
 
 <div>
 <div align="start">
-<img src="/img/mobile1.png" align="center" style="width: 50%" />
+<img src="/img/mobile1.png" align="start" style="width: 50%" />
 </div> 
 
 <div align="end">
-<img src="/img/mobile2.png" align="center" style="width: 50%" />
+<img src="/img/mobile2.png" align="end" style="width: 50%" />
 </div> 
 </div>

@@ -5,6 +5,6 @@
 <br/>  
 
 <div>
-<img src="/img/mobile1.png" style="width: 50%" />
-<img src="/img/mobile2.png" style="width: 50%" />
+<img src="/img/mobile1.png" style="width: 40%" />
+<img src="/img/mobile2.png" style="width: 40%" />
 </div>

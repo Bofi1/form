@@ -4,10 +4,12 @@
 
 <br/>  
 
+<div>
 <div align="start">
-<img src="/img/mobile1.png" align="center" style="width: 45%" />
+<img src="/img/mobile1.png" align="center" style="width: 50%" />
 </div> 
 
 <div align="end">
-<img src="/img/mobile2.png" align="center" style="width: 45%" />
+<img src="/img/mobile2.png" align="center" style="width: 50%" />
 </div> 
+</div>

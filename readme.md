@@ -4,7 +4,6 @@
 
 <br/>  
 
-<div>
-<img src="/img/mobile1.png" style="width: 49%" />
-<img src="/img/mobile2.png" style="width: 49%" />
-</div>
+<div align="center">
+<img src="/img/mobile1.png" align="center" style="width: 100%" />
+</div>  

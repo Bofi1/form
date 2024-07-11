@@ -5,5 +5,5 @@
 <br/>  
 
 <div align="center">
-<img src="/img/mobile1.png" align="center" style="width: 100%" />
+<img src="/img/mobile1.png" align="center" style="width: 50%" />
 </div>  
